@@ -1,0 +1,31 @@
+Armadillo
+Ass
+Bat
+Bear
+Blue whale
+Cats
+Cheetah
+Cow
+Deer
+Dog
+Dolphin
+Elephant
+Fox
+Giant panda
+Giraffe
+Gorilla
+Hippopotamus
+Horse
+Kangaroo
+Koala
+Leopard
+Lion
+Monkey
+Mouse
+Ox
+Panda
+Sheep
+Squirrel
+Tiger
+Wolf
+Wolverine
