@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<h1 align="center">Counter</h1>
+<p id="count" align="center" style="font-size:75px;color:green;">0</p>
+<div class="button" align="center">
+<button onclick="de()">DECREASE</button>
+<button onclick="re()">RESET</button>
+<button onclick="inc()">INCREASE</button>
+</div>
+<script>
+let a=0;
+function inc(){
+	a++
+	if(a>=0){
+		document.getElementById("count").style.color="green";
+	}
+	if(a<0){
+		document.getElementById("count").style.color="red";
+	}
+	document.getElementById("count").textContent=a;
+}
+function de(){
+	a--
+	if(a>=0){
+		document.getElementById("count").style.color="green";
+	}
+	document.getElementById("count").textContent=a;
+	if(a<0){
+		document.getElementById("count").style.color="red";
+	}
+}
+function re(){
+	a=0
+	document.getElementById("count").textContent=a;
+}
+</script>
+</body>
+</html>

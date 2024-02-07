@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{algorithm,amsmath,algpseudocode}
+\begin{document}
+
+\begin{algorithm}
+  \caption{Self-Quotient algorithm}
+  \begin{algorithmic}[0]
+  	\State \textbf{Input:} Input image \textbf{I}, Gaussian filter \textbf{G} of size $s \times s$
+  	\State \textbf{Output:} Self-Quotient image Q
+  	\ForAll{pixel \textbf{I}$(x,y)$}
+  		\State Consider a window \textbf{W} of size $s \times s$ around \textbf{I}$(x,y)$
+  		\State Compute the anisotropic filter $\mathbf{F}_{\mathbf{W}(x,y)}$ at the location $(x,y)$
+  		\State $\mathbf{F}_{\mathbf{W}(x,y)} = $
+  		\State $\mathbf{Z}(x,y) = \sum \sum (\mathbf{F}_{\mathbf{W}(x,y)} \circ \mathbf{W}(x,y))$
+  		\State Compute the weight w
+  		\State $\omega = (s \times s) \times \sum \sum \mathbf{F}_{\mathbf{W}}$
+  		\State $\omega = \frac{1}{\omega}$
+  	\EndFor
+	\\
+	Compute self-quotient image Q and correct singularities\\
+	$\mathrm{Q = \frac{I}{\omega Z}}$\\
+	Adjust histogram and normalize image Q
+  \end{algorithmic}
+\end{algorithm}
+\end{document}

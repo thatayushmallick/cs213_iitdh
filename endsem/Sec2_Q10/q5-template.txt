@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{algorithm,amsmath,algpseudocode}
+\begin{document}
+
+\begin{algorithm}
+  \caption{Self-Quotient algorithm}
+
+  \begin{algorithmic}[0]
+  %-------------- Input & Output -----------------
+
+
+  %--------------- for loop -----------------------
+
+  %----------- Remaining text ----------------
+
+
+  \end{algorithmic}
+\end{algorithm}
+\end{document}
