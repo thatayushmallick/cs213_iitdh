@@ -1,0 +1,101 @@
+*{
+    color: white;
+}
+.box{
+    border: 1px solid white;
+    width: auto;
+    margin: auto;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h3{
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+.halves{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.half{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+input{
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+}
+label{
+    font-size: 1%;
+    margin-top: 3px;
+    margin-left: 2px;
+    margin-bottom: 7px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+select{
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 75%;
+}
+.gender{
+    display: flex;
+    align-items: center;
+}
+.gender>input{
+    width: auto;
+    height: 10px;
+}
+.rating>input{
+    width: auto;
+    height: 10px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.submit>input{
+    color: white;
+    background-color: blue;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+
+.rating {
+    display: flex;
+    align-content: center;
+}
+
+.rating > label {
+    margin-right: 10px;
+}
+
+.back {
+    width: 50%;
+    background-color: green;
+    margin-left: 25%;
+    padding: 25px;
+}

@@ -1,0 +1,160 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{algpseudocode}
+\usepackage{cite}
+\title{Assignment}
+\author{Ayush Mallick\\220010008@iitdh.ac.in\\\\Department of Computer Science, IIT Dharwad}
+\date{\today}
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+\section{Mathematics}
+In this section, various mathematical formulae and equations will be included to include all the feature mentioned in the assignment. Very low mass particles moving at speed less than that of light behaves like a particle and wave. De Broglie derived an expression relating the mass of such smaller particles and its wavelength.\par
+Plank's quantum theory relates the energy of an electromagnetic wave to its wavelength or frequency.
+\begin{align}
+\begin{split}
+E&=h\nu\\
+&=\frac{hc}{\lambda}    
+\end{split}
+\end{align}
+Einstein related the energy of particle matter to its mass and velocity, as
+\begin{equation}
+E=mc^2
+\end{equation}
+As the smaller particle exhibits dual nature, and energy being the same, de Broglie equated 1 \& 2 for the particle moving with velocity `v' as
+\[\frac{hc}{\lambda}=mv^{2}\]
+Then, \(\frac{h}{\lambda}=mv\) or \(\lambda=\frac{h}{mv}=\frac{h}{\text{momentum}}\): where `h' is the Plank's constant.We know 7 + 3 = 10.\\
+We have derived this from\cite{verma2008concepts}.\\
+Lets check different mathematical functions in \LaTeX
+\subsection{Matrices}
+\(\begin{bmatrix}
+\sqrt{2}&\sqrt{3}&\sqrt{5}\\
+\sqrt{7}&\sqrt{11}&\sqrt{13}\\
+\sqrt{23}&\sqrt{19}&\sqrt{17}
+\end{bmatrix}\)
+\subsection{Squareroot}
+Although illustrated above, we use square root again for the equation \(ax^2+bx+c=0\), the roots are given by
+\[x=\frac{-b \pm \sqrt{b^2-4ac}}{2ac}\]
+This is the basic equation which study in class 10th\cite{education2016mathematics}
+\newpage
+\subsection{Integration}
+The definite integral of a continuous function $f$ over the interval $[a,b]$ denoted by $\int_a^bf(x)dx$ is the limit of a Riemann sum as the number of subdivisions approaches infinity. This definition is cited from\cite{ghorpade2018course}
+\subsection{Summation}
+Riemann sum can be given by:
+\[\textit{lim}_{n\to\infty}\sum_{i=0}^n\delta xf(x_i)\]
+\subsection{Nested brackets}
+\(\left[\frac{\Biggl(\biggl[\Bigl(\bigl[\frac{(xy)}{z}\%w\bigr]+7\Bigr)- 10\biggl]8\Biggl)}{\Biggl(\biggl[\Bigl(\bigl[\frac{(zy)}{x}\%u\bigr]+17\Bigr)- 1\biggl]5\Biggl)}\right]\)
+\newpage
+\begin{figure}
+\includegraphics[height=3.5cm]{covid.png}
+\caption{Graphic image}
+\end{figure}
+\begin{table}
+\begin{tabular}{|l|l|l|}
+\hline
+Characteristics&Chloroquine (n = 10)&P-value*\\\hline
+\hline
+Age, year&41.5 (33.8–50.0)&0.09\\\hline
+Female, n (\%)&3(70.00)&0.41\\\hline
+Days from onset to treatment&2.50 (2.00–3.75) 6.50&0.001\\\hline
+Height, cm&167.50 (158.00–173.00)&0.97\\\hline
+\end{tabular}
+\caption{Treatment}
+\end{table}
+\section{Lists and figures and tables}
+\begin{itemize}
+\item A novel coronavirus disease 2019 (COVID-19) emerged around December 2019 in Wuhan, China and has spread rapidly worldwide (Lu et al., 2020).
+\item Until March 27, 2020, the Chinese health authorities had reported 82082 confirmed COVID-19 cases in China with 3298 deaths and 381443 confirmed cases with 20787 deaths outside China.
+\end{itemize}
+\begin{enumerate}
+\item Coronavirus relies on cellular machinery to replicate itself, thus providing a rationale to search for effective therapies among agents that may impact pathways required for the viral life cycle.
+\item he vesicular trafficking system plays a critical role in viral entry, unpacking, assembly, and packaging. Among agents that can interfere with normal vesicular trafficking are several drugs approved for human therapies.
+\item well-known antimalaria drug, Chloroquine, stands out as one of the earliest reagents that can block vesicular trafficking and also interfere with the life cycle of parasites and viruses.
+\end{enumerate}\par
+We can see from Figure 2 that the covid cases in India in June were already reaching high values.\\\par
+It is evident from Figure 3 that we should stay informed about covid.\\\par
+We see table 1 which shows recovery rates by chloroquinone\\
+The above data is derived from research paper on covid\cite{huang2020treating}
+\newpage
+\newpage
+\begin{figure}
+\centering
+\includegraphics[scale=1]{c19.jpg}
+\caption{Cases in india}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[scale=0.3]{cov.png}
+\caption{Stay Informed}
+\end{figure}
+\textbf{Following is description type list}
+\begin{description}
+\item[CS 213]Lorem ipsum dolor sit amet,\textbf{Turned the text bold consectetur adipiscing elit, sed do eiusmod tempor incididunt} ut labore et dolore magna aliqua. \textit{Italics Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo .}
+\item[HS 201]Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+\end{description}
+\newpage
+\pagecolor{green}
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Names&\multicolumn{2}{|c|}{Maths}&\multicolumn{2}{|c|}{Science}\\
+\hline
+\multirow{2}{*}{Lorem}&X&Y&Z&W\\\cline{2-5}
+&S&R&V&U\\\hline
+\multirow{2}{*}{Ipsum}&3&2&0&1\\\cline{2-5}
+&T&O&P&Q\\\hline
+\multirow{2}{*}{Lorm}&A&B&C&D\\\cline{2-5}
+&2&3&1&0\\\hline
+\end{tabular}
+\caption{Scores}
+\end{table}
+\section{Fonts}
+Till now we have seen \textcolor{red}{mathematical formulae} in \colorbox{blue}{section 1} and \textcolor{red}{covid data} with figures and tables in\colorbox{blue} {section 2}. In \colorbox{blue}{section 3} we will use font properties.
+\begin{itemize}
+\item Bold-\textbf{This text is bold.}
+\item Italics-\textit{This text is italic.}
+\item teletype-\texttt{This text is teletype.}
+\item emphasize-\emph{This text is emphasized.}
+\item Roman-\textrm{This text is roman font family.}
+\item sans serif- \textsf{This text is sans serif font family.}
+\item slant-\textsl{This text is slant.}
+\item small capital-\textsc{This text is small capital.}
+\item uppercase-\uppercase{This text is uppercase.}
+\item lowercase-\lowercase{This text is lowercase.}
+\end{itemize}\par
+The table 2 is a multi-column and multi-row table.
+\newpage
+\pagecolor{white}
+\section{Pseudo Code}
+\begin{algorithmic}
+\Function{Quicksort}{$A[\hspace{1mm}],p,r$}
+\If{$p<r$}
+\State$q\gets \textsc{Partition}(A,p,r)$
+\State \textsc{Quicksort}$(A ,p ,q-1)$
+\State \textsc{Quicksort}$(A ,q+1 ,r)$
+\EndIf
+\EndFunction
+\Function{Partition}{$A[\hspace{1mm}],p,r$} $x \gets a[p]$ $i \gets p - 1$
+\For{$j \gets p$ to $r-1$}
+\If{$A[j] < x$}
+\State$i++$
+\State swap$(A[i],A[j])$
+\EndIf
+\EndFor
+\State swap$(A[i+1],A[r])$
+\State \bf{return}$(i+1)$
+\EndFunction
+\end{algorithmic}
+The Algorithm is derived taking hint from\cite{hoare1962quicksort}.
+\newpage
+\bibliographystyle{unsrt}
+\bibliography{test}
+\end{document}

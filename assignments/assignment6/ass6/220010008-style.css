@@ -1,0 +1,221 @@
+
+.page{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    background-color: teal;
+    border-radius: 25px;
+    padding: 50px;
+    box-shadow: 5px 5px 5px lightcyan;
+}
+.site{
+    display: flex;
+    gap: 50px;
+}
+.sitename{
+    display: flex;
+    align-items: center;
+}
+.username{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.usernameinput {
+    display: flex;
+    align-items: center;
+}
+.usernameinput>input{
+    width: 250px;
+    border-radius: 10px;
+}
+.password{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.passwordinput {
+    display: flex;
+    align-items: center;
+}
+.passwordinput>input{
+    width: 250px;
+    border-radius: 10px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.back{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: teal;
+    border-radius: 25px;
+    padding: 50px;
+    height: 100px;
+    width: 90vw;
+    margin: 25px;
+    max-width: 1000px;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px lightcyan;
+}
+.headersite{
+    display: flex;
+    align-items: center;
+}
+.headersitename{
+    margin-left: 25px;
+}
+.headeruser{
+    display: flex;
+    align-items: center;
+}
+.headeruserlogout{
+    margin-left: 50px;
+}
+.body{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    max-width: 1000px;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+.bodyleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: teal;
+    border-radius: 25px;
+    padding: 50px;
+    width: 100%;
+    box-shadow: 5px 5px 5px lightcyan;
+}
+.bodylefttopheading{
+    margin-bottom: 25px;
+}
+.bodylefttoppost{
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+    border-radius: 15px;
+    min-height: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.bodylefttoppostuser{
+    display: flex;
+}
+.bodylefttoppostusername{
+    margin-left: 5px;
+}
+.bodylefttoppostcontent{
+    margin: 5px;
+}
+.bodyleftbottom{
+    display: flex;
+    justify-content: space-between;
+}
+.bodyleftbottomnew{
+    width: 75%;
+}
+.bodyleftbottomnew>input{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.bodyleftbottompost{
+    margin-left: 25px;
+}
+.bodyright{
+    background-color: teal;
+    border-radius: 25px;
+    padding: 50px;
+    width: 200px;
+    box-shadow: 5px 5px 5px lightcyan;
+}
+.bodyrightheading{
+    margin-bottom: 25px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: teal;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 100px;
+    box-shadow: 5px 5px 5px lightcyan;
+}
+.profileuser{
+    display: flex;
+    height: 250px;
+    margin-bottom: 25px;
+}
+.profileusername{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+.profilefriends{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.profilefriendscount{
+    margin-left: 25px;
+}
+.profilefollowers{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.profilefollowerscount{
+    margin-left: 25px;
+}
+.profileposts{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.profilepostscount{
+    margin-left: 25px;
+}
+.profileviews{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.profileviewscount{
+    margin-left: 25px;
+}
+.profilekarma{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.profilekarmacount{
+    margin-left: 25px;
+}
+.profilehome{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
